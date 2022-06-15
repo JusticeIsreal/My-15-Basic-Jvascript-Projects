@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*    <!-- coloor picker container starts  --> */
+.colour-picker-con {
+  padding: 10px 0;
+  border-bottom: 3px solid black;
+}
+.colour-picker-con > h2,
+h4,
+p {
+  text-align: center;
+}
+.change-colour {
+  display: flex;
+  margin: 0 auto;
+}
+/*    <!-- coloor picker container ends  --> */
+
+/* COUNTER APP STARTS */
+.counter-app-con {
+  padding: 10px 0;
+  border-bottom: 3px solid black;
+  text-align: center;
+}
+.counter-app-con .counter-int {
+  font-size: 45px;
+  font-weight: 900;
+}
+/* COUNTER APP ENDS */
