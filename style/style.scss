@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@mixin centerText($center) {
+  display: block;
+  text-align: $center;
+}
+
+/*    <!-- coloor picker container starts  --> */
+.colour-picker-con {
+  padding: 10px 0;
+  margin: 0 auto;
+  width: 350px;
+  border-radius: 10px;
+  border: 1px solid rgba(221, 221, 221, 0.466);
+  box-shadow: 0px 2px 15px rgba(114, 114, 114, 0.616);
+  border-bottom: 3px solid black;
+  h2,
+  h4 {
+    @include centerText(center);
+    text-align: center;
+  }
+  h4 {
+    color: white;
+    font-size: 20px;
+  }
+  button {
+    margin: 10px 110px;
+  }
+}
+
+/*    <!-- coloor picker container ends  --> */
+
+/* COUNTER APP STARTS */
+.counter-app-con {
+  padding: 10px 0;
+  margin: 30px auto;
+  width: 350px;
+  border-radius: 10px;
+  border: 1px solid rgba(221, 221, 221, 0.466);
+  box-shadow: 0px 2px 15px rgba(114, 114, 114, 0.616);
+  h1,
+  span,
+  div {
+    @include centerText(center);
+  }
+  span {
+    font-size: 50px;
+  }
+}
+/* COUNTER APP ENDS */
+
+/* CUSTOMER REVIEW STARTS */
+.review-con {
+  width: 450px;
+  border-radius: 10px;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 1px solid rgba(221, 221, 221, 0.466);
+  box-shadow: 0px 2px 15px rgba(114, 114, 114, 0.616);
+  border-bottom: 3px solid black;
+  p,
+  div {
+    @include centerText(center);
+  }
+  .customer-name {
+    font-size: 25px;
+    font-weight: 900;
+  }
+  .customer-job {
+    font-size: 15px;
+    font-weight: 900;
+    color: red;
+  }
+  .img-con {
+    border: 5px solid rgb(255, 255, 255);
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin: 0 auto;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    // object-fit: cover;
+    border-radius: 100%;
+  }
+}
+
+//
+//
+// .review-con .customer-img {
+//
+// }
+// .review-con
+// }
+// .review-con .customer-job {
+//   font-size: 15px;
+//   font-weight: 900;
+// }
+// .review-con .about {
+//   width: 80%;
+//   margin: 0 auto;
+// }
+// .review-con .prev-next-btn {
+//   display: flex;
+//   justify-content: center;
+//   margin: 0 auto;
+//   margin-top: 10px;
+// }
+// /* CUSTOMER REVIEW ENDS */
