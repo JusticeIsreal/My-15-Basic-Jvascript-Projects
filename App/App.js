@@ -27,9 +27,7 @@ const saveNumber = (num) => {
 };
 
 const retrivedCount = JSON.parse(localStorage.getItem("countKey"));
-
 let count = retrivedCount;
-
 counterInt.textContent = count;
 
 buttons.forEach((button) => {
@@ -48,7 +46,7 @@ buttons.forEach((button) => {
     saveNumber(count);
   });
 });
-
+// color condition
 const switchCOlor = () => {
   if (count < 0) {
     counterInt.style.color = "red";
